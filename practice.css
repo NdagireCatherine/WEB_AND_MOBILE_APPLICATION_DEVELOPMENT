@@ -1,0 +1,17 @@
+#para_1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    animation: 3s infinite alternate;
+    display: flex;
+}
+
+.para_2{
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(0, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
