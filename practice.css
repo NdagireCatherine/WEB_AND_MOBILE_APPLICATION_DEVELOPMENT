@@ -24,4 +24,22 @@
     background-position: center;
     background-color:rgb(175, 166, 241);
     background-blend-mode: lighten;
+    color: transparent;
+}
+
+h1{
+    font-style: oblique;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.button{
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: double;
+    display: inline-block;
+    font-size: 16px;
 }
