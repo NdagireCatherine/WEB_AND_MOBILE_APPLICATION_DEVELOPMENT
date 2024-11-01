@@ -3,3 +3,4 @@ const checkApprox = (num_1, num_2, epsilon = 0.004) => {
 }
 
 console.log(checkApprox(0.003, 0.03));
+
