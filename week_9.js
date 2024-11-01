@@ -13,7 +13,7 @@ let text = "Hey How are you";
 let result = text.split(" ");
 console.log(result);
 
-//playing items in an array
+//playing items in an array using object.values
 const person = {
     name: 'Catherine',
     age: 20,
@@ -21,3 +21,7 @@ const person = {
 };
 const values = Object.values(person);
 console.log(values)
+
+//an arrow function
+const add = (a, b) => a + b;
+console.log(add(5, 5))
