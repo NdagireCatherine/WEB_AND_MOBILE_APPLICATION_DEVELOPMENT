@@ -7,3 +7,8 @@ console.log(checkApprox(0.003, 0.03));
 
 let currentMilliseconds = Date.now();
 console.log(currentMilliseconds)
+
+
+let text = "Hey How are you";
+let result = text.split(" ");
+console.log(result);
