@@ -25,3 +25,9 @@ console.log(values)
 //an arrow function
 const add = (a, b) => a + b;
 console.log(add(5, 5))
+
+
+//ternery operator
+let age = 25;
+let answer = age >= 18 ? "You are an adult" : "You are not an adult";
+console.log(answer);
