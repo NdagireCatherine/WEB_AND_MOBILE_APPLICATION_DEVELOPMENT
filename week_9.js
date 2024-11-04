@@ -31,3 +31,17 @@ console.log(add(5, 5))
 let age = 25;
 let answer = age >= 18 ? "You are an adult" : "You are not an adult";
 console.log(answer);
+
+
+
+//fibonacci series
+const number = parseInt(prompt('Enter the number of terms: '));
+let n1=0, n2=1, nextTerm;
+console.log('Fibonacci Series:');
+
+for(let i=1; i<=number; i++){
+    console.log(n1);
+    nextTerm = n1+n2;
+    n1=n2;
+    n2=nextTerm
+}
