@@ -46,6 +46,8 @@ for(let i=1; i<=number; i++){
     n2=nextTerm
 }
 
+
+//largest number
 const num1 = parseFloat(prompt("Enter first number: "));
 const num2 = parseFloat(prompt("Enter second number: "));
 const num3 = parseFloat(prompt("Enter third number: "));
@@ -60,3 +62,9 @@ else{
     largest = num3;
 }
 console.log("The largest number is" + largest)
+
+
+//convert from celsius
+const celsius = prompt("Enter a celsius value:");
+const fahrenheit = (celsius*1.8)+32
+console.log("Fahrenheit:" + fahrenheit)
