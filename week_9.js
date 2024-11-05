@@ -68,3 +68,16 @@ console.log("The largest number is" + largest)
 const celsius = prompt("Enter a celsius value:");
 const fahrenheit = (celsius*1.8)+32
 console.log("Fahrenheit:" + fahrenheit)
+
+
+//guess the number
+function guessNumber(){
+    const random = Math.floor(Math.random()*10) + 1;
+    let number1 = 10
+    while(number !== random){
+        number1 = 9
+    }
+    if(number1 == random){
+        console.log('You guessed the number.')
+    }
+}
